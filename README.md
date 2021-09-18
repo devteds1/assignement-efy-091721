@@ -22,14 +22,18 @@ Below are the 3 assignments submitted as one github repository. Click on the ass
 
 ## [3: JS/UI App: Currency Converter](./js-cur-converter)
 
-- **Note:** Problem statement wasn't clear
-  - Name of the class `CurrencyConverter` was suggested but the example provided was bit off
-  - The example provided was copy of assignment-1 description
-  - There was no mention of if a JS framework/library can be used for the UI app or to use Vanilla Javascript 
 - JS / UI Application Code
   - I chose `Vue.js` to build the UI application. There are only two files: `index.html` & `app.js`
   - App uses Bootstrap for CSS (not JS components)
   - Both for Vue.js and Bootstrap, it uses CDN URLs for JS & CSS
   - JS file `app.js` could have been split into two files but chose to keep it one to not over-complicate the code
   - Instead two separate pages for currency converter and rate table, the app does those two in a single page. This may be going against the requirement but provides a better UX.
-
+- **Note:** Problem statement wasn't clear
+  - Name of the class `CurrencyConverter` was suggested but the example provided was bit off
+  - The example provided was copy of assignment-1 description
+  - There was no mention of if a JS framework/library can be used for the UI app or to use Vanilla Javascript 
+  - There is no operator overloading in Javascript. To implement arithmetic functions, instead of operators I would have to use function names such as `add`, `div`, etc. Skipped that part and one more reason for that is, requirement did not mention how it should be surfaced on the UI. Writing those function should be a quick one.
+- Assumptions made
+  - Using `Money` as the class name (similar to the one in the Ruby gem) will not be an issue
+  - Used the name `CurrencyConverterApp` for the JS app name
+  - Chose `Vue.js` instead of Vanilla Javascript
