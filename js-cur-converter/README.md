@@ -19,3 +19,7 @@ cd js-cur-converter
 open index.html
 # Or use the `file:///` URL using the location of index.html
 ```
+
+UI Sample
+
+![UI Sample](/js-cur-converter/doc/jsapp-screenshoot.png)
